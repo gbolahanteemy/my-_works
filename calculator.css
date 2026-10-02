@@ -1,0 +1,48 @@
+body{
+  background-color: black;
+}
+.display-screen {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        min-height: 30px;
+        margin-bottom: 10px;
+      }
+
+.key {
+  background-color: grey;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  
+  /* The fix to make it circular */
+  width: 50px;
+  height: 50px;
+  border-radius: 50px; /* 50% guarantees a perfect circle */
+  
+  /* Centers the text/symbols inside the fixed circle */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+      
+.operators {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  
+  /* The fix to make it circular */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* 50% guarantees a perfect circle */
+  
+  /* Centers the text/symbols inside the fixed circle */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
